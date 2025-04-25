@@ -1,3 +1,19 @@
+################################################################################
+#                                                                              #
+# The MI.lasso function is developed in Chen and Wang's (2013) paper and made  #
+# publicly available on Chen's (2013) website.                                 #
+#                                                                              #
+# References:                                                                  # 
+#                                                                              # 
+# Chen, Q. (2013). Mi.lasso r function for multiply-imputed data.              #
+# https://www.columbia.edu/~qc2138/. Accessed April 20, 2025.                  #
+#                                                                              # 
+# Chen, Q. and S. Wang (2013). Variable selection for multiply-imputed data    #
+# with application to dioxin exposure study. Statistics in medicine 32 (21),   #
+# 3646–3659.                                                                   #
+#                                                                              # 
+################################################################################
+
 rm(list = ls())
 library(mice)
 

@@ -1,3 +1,21 @@
+################################################################################
+#                                                                              #
+# The miselect package is developed for Du et al.'s (2022) paper and made      #
+# publicly in Du et al. (2024).                                                #
+#                                                                              #
+# References:                                                                  # 
+#                                                                              # 
+# Du, J., J. Boss, P. Han, L. J. Beesley, M. Kleinsasser, S. A. Goutman,       #
+# S. Batterman, E. L. Feldman, and B. Mukherjee (2022). Variable selection.    #
+# with multiply-imputed datasets: choosing between stacked and grouped.        #
+# methods. Journal of computational and graphical statistics 31 (4), 1063–     #
+# 1075.                                                                        #
+#                                                                              # 
+# Kleinsasser, M., A. Rix, and J. Du (2024). miselect: Variable selection for  #
+# multiply imputed data. R package version 0.9.2.                              #
+#                                                                              # 
+################################################################################
+
 rm(list = ls())
 library(mice)
 

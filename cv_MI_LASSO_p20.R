@@ -1,3 +1,21 @@
+################################################################################
+#                                                                              # 
+# Here we develop the MI.lasso.cv function based on the code of MI.lasso       #
+# published by Chen (2013) originally for MI-LASSO in Chen and Wang’s (2013)   #
+# paper. This function corresponds to the Cross-validation version of the      #
+# MI-LASSO mentioned in our paper.                                             #
+#                                                                              # 
+# References:                                                                  # 
+#                                                                              # 
+# Chen, Q. (2013). Mi.lasso r function for multiply-imputed data.              #
+# https://www.columbia.edu/~qc2138/. Accessed April 20, 2025.                  #
+#                                                                              # 
+# Chen, Q. and S. Wang (2013). Variable selection for multiply-imputed data    #
+# with application to dioxin exposure study. Statistics in medicine 32 (21),   #
+# 3646–3659.                                                                   #
+#                                                                              # 
+################################################################################
+
 rm(list = ls())
 library(mice)
 

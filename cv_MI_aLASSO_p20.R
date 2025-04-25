@@ -1,3 +1,27 @@
+################################################################################
+#                                                                              # 
+# Here we develop the MI.alasso.cv function based on the code of MI.lasso      #
+# published by Chen (2013) originally for MI-LASSO in Chen and Wang’s (2013)   #
+# paper. This function corresponds to the Cross-validation version of the      #
+# MI-aLASSO mentioned in our paper. The MI.alasso.cv computes the weight term  #
+# based on the procedure described by Du et al. (2022).                        #
+#                                                                              # 
+# References:                                                                  # 
+#                                                                              # 
+# Chen, Q. (2013). Mi.lasso r function for multiply-imputed data.              #
+# https://www.columbia.edu/~qc2138/. Accessed April 20, 2025.                  #
+#                                                                              # 
+# Chen, Q. and S. Wang (2013). Variable selection for multiply-imputed data    #
+# with application to dioxin exposure study. Statistics in medicine 32 (21),   #
+# 3646–3659.                                                                   #
+#                                                                              # 
+# Du, J., J. Boss, P. Han, L. J. Beesley, M. Kleinsasser, S. A. Goutman, S.    #
+# Batterman, E. L. Feldman, and B. Mukherjee (2022). Variable selection with   # 
+# multiply-imputed datasets: choosing between stacked and grouped methods.     #
+# Journal of computational and graphical statistics 31 (4), 1063–1075.         #
+#                                                                              # 
+################################################################################
+
 rm(list = ls())
 library(mice)
 
