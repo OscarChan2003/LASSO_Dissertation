@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or any part of it, please cite it as below."
+title: "LASSO_Dissertation: Code repository for variable selection with multiply imputed data"
+version: 1.0.0
+date-released: 2025-04-25
+authors:
+  - family-names: Chan
+    given-names: Shing Him
+repository-code: https://github.com/OscarChan2003/LASSO_Dissertation
+keywords:
+  - LASSO
+  - variable selection
+  - multiple imputation
+  - group LASSO
+  - adaptive LASSO
+  - simulation study
